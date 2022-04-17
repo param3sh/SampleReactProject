@@ -1,0 +1,17 @@
+.header-component {
+    height: 3rem;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    border-bottom: 2px solid rgba(0,0,0,.1);
+    clear:both;
+    padding-left: 43%;
+    .header-login {
+        margin-left: 65%;
+        background-color:cadetblue;
+        border-radius: 50%;
+    }
+}

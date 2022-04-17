@@ -1,0 +1,33 @@
+/** Container SASS File Imports **/
+@import 'containers/Login/Login.scss';
+@import 'containers/LandingPage/LandingPage.scss';
+@import 'containers/Search/Search.scss';
+@import 'containers/Results/Results.scss';
+
+/** Component SASS File Imports **/
+@import 'components/Card/Card.scss';
+@import 'components/Header/Header.scss';
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
